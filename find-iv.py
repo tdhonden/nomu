@@ -1,4 +1,3 @@
-'''
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -89,6 +88,6 @@ TARGET_RATIOS = ['1m', '3m', '6m', '12m']
 
 df = analyze_for_delta(TARGET_DELTA, TARGET_RATIOS, 'sample_data.csv')
 df.to_csv('delta50.csv')
-'''
+
 
 # join on date and security
