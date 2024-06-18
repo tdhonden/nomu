@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import streamlit_options_menu
-from find-iv.py import *
+from findiv.py import *
 
 
 # Create streamlit app
